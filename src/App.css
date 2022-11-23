@@ -1,0 +1,153 @@
+html{
+  height: 100vh;
+  width: 100vw;
+}
+body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden scroll;
+}
+nav{
+  padding: 0 !important;
+}
+.App{
+  display: flex;
+  background: #f2f3f9;
+}
+#BtnADD {
+    font-size: 14px;
+    color: #fff;
+    background-color: #282634;
+    float: right;
+    padding: 6px 5px;
+    border-radius: 2rem !important;
+    font-family: "Segoe UI semibold";
+}
+
+#BtnADD svg{
+    padding: 3px;
+    border-bottom: 25px;
+    display: inline-block;
+    height: 1.3em;
+    line-height: 1.5em;
+    position: relative;
+    vertical-align: middle;
+    width: 1.3em;
+    text-align: center;
+    border-radius: 1.25rem;
+    background-color: #fff;
+    color:#000;
+}
+#example-collapse-text{
+background: #fff;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+#save{
+    color: #fff;
+    background-color: #282634;
+}
+.accordion{
+      border-radius: 50px !important;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 7px 0px;
+}
+.accordion-item{
+  border-radius: 50px !important;
+}
+.accordion-button{
+  color: #f55035;
+  border-radius: 50px !important;
+}
+.breadcrumb-item {
+    color: #282634;
+}
+.breadcrumb-item.active{
+color: #f55035 !important;
+}
+.g-btn{
+  width:auto !important;
+      background-color: #DD4B39 !important;
+    border-color: #DD4B39 !important;
+}
+.LoginContainer{
+  display: flex;
+  height: 100%;
+  width: 100%;
+background-image: url(img/exploiter-la-donnee-iot-hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: "Segoe UI";
+}
+.card-left .logo-top {
+    max-width: 45%;
+    height: auto;
+}
+#root,
+.App{
+  height: 100%;
+}
+.card-left {
+    border-radius: 10px !important;
+}
+.btn-register {
+    width: 70%;
+    margin: auto;
+    background-color: #fff !important;
+    color: #db6b53 !important;
+    font-weight: 600;
+    font-family: "Segoe UI";
+}
+
+.simpleLogin,
+#updateProfile,
+#signup,
+.simpleLogin:hover{
+  border-color: #DD4B39 !important;
+  color: #DD4B39 !important;
+  background-color: #fff;
+}
+.kTwPWZ{
+  overflow: hidden hidden !important;
+}
+.container-fluid{
+  overflow: hidden scroll;
+}
+.col-12.p-3{
+  overflow: hidden scroll;
+}
+.nav{
+  position: fixed;
+}
+.head-text img{
+  width: 150px;
+}
+a.cancel,
+a.login{
+  color: #DD4B39 !important;
+}
+.app-body{
+      display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow-x: hidden;
+}
+.sensorInfos{
+  background-color: #fff;
+  border-radius: 15px;
+box-shadow: rgb(0 0 0 / 16%) 0px 3px 7px 0px;
+
+}
+
+.activeClicked li {
+    background: #fff0 !important;
+    color: #fff !important;
+}
+.small-logo{
+width: 30px;
+}
+

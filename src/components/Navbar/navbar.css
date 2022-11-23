@@ -1,0 +1,147 @@
+nav {
+    background: rgb(51 51 51);
+    padding: 20px 291px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-block-end: 200px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 99;
+    width: 110%;
+  }
+  
+  .fas {
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    font-size: 20px;
+  }
+  .menu-icon .fa-times {
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .menu-icon i{
+      position: fixed;
+    right: 10px;
+  }
+  
+  .logo {
+    font-weight: 600;
+    font-size: 20px;
+    width: 300px;
+    color: rgb(99, 99, 228);
+  
+   
+  }
+  
+  .logo font {
+    color: #fff;
+  }
+  
+  .menu-list {
+    list-style: none;
+    position: fixed;
+    right: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      width: 200px;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      top: 64px;
+      transition: all 0.5s ease-in-out;
+    }
+  
+  .menu-list li:last-child a {
+
+    background-color:#f55035cc;
+    transition: all 0.5s ease-in-out;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: bold;
+    border-radius: 2px;
+  }
+  .btn1{
+    font-weight: 300;
+    border: #000;
+    padding: 8px 20px;
+    transition: all 0.5s ease-in-out;
+    margin-left: 379px;
+    border-radius: 2px;
+    color: black;
+    
+  
+    right: 20px;
+  
+  }
+  .menu-list li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    padding: 5px 10px;
+    margin-left: 20px;
+  }
+  
+  /* .menu-list li a:hover,
+  .menu-list li a.active {
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+  } */
+  
+
+    .logo {
+      font-size: 20px;
+    }
+    .menu-list li a {
+      font-size: 14px;
+      margin-left: 10px;
+    }
+  
+   .menu-icon {
+      display: contents;
+    }
+
+   
+
+  
+    .menu-list li {
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center;
+    }
+    .menu-list li:last-child {
+      margin-bottom: 0px;
+    }
+  
+    .menu-list li a,
+    .menu-list li:last-child a {
+      display: block;
+      margin: auto;
+    }
+  
+    .menu-list.close {
+      right: -100%;
+      transition: all 0.5s ease-in-out;
+    }
+  
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+}
+.userPhoto{
+position: absolute;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    left: 87%;
+    border-radius: 50%;
+}
+  

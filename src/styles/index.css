@@ -1,0 +1,89 @@
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px;
+    /* width: 900px; */
+    margin: 20px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    text-align: center;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #c8ced3;
+    border-radius: 0.25rem;
+}
+.bg-none {
+    background: transparent;
+    border: none;
+    font-family: "Segoe UI";
+    padding: 15% 5% !important;
+}
+
+.txt{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    position: relative;
+    text-align: center;   
+}
+.titre {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   font-size: 25px;
+   color: #CD853F;
+}
+ .livedata {
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color:#CD853F
+
+} 
+.bg {
+    background-color: white;
+    width: 100%;
+}
+.db{
+    /* width: 1000px; */
+    text-align: left;
+}
+img{width: 180px;
+   
+}
+ol li{
+    width: 20%;
+    display: table-cell;
+}
+ol{
+    margin-top: 1rem;
+    width: 100%;
+    display: table;
+}
+ol li a{
+    font-weight: 500;
+    color: #CD853F !important;
+    text-decoration: none;
+}
+.gAMYCL .head-div.toggled .head-text {
+    display: block !important;
+}
+.gAMYCL .head-div.toggled .head-text .logo {
+    display: none !important;
+}
+.gAMYCL .head-div.toggled .head-text .logo-small {
+    display: block !important;
+}
+.logo-small{
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+.logo-small img{
+    width: 30px;
+}
+.pro-sidebar i{
+    color: #CD853F !important;  
+}
